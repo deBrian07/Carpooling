@@ -1,3 +1,5 @@
+import Foundation
+import CoreLocation
 import SwiftUI
 
 struct Stop: Identifiable {
@@ -5,4 +7,5 @@ struct Stop: Identifiable {
     var name: String
     var icon: String
     var color: Color
+    var coordinate: CLLocationCoordinate2D
 }
