@@ -14,6 +14,9 @@
 		3B9EFC732C40F6EA00526C49 /* CarpoolingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC722C40F6EA00526C49 /* CarpoolingTests.swift */; };
 		3B9EFC7D2C40F6EA00526C49 /* CarpoolingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC7C2C40F6EA00526C49 /* CarpoolingUITests.swift */; };
 		3B9EFC7F2C40F6EA00526C49 /* CarpoolingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC7E2C40F6EA00526C49 /* CarpoolingUITestsLaunchTests.swift */; };
+		3B9EFC8C2C41CF8100526C49 /* StopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC8B2C41CF8100526C49 /* StopListView.swift */; };
+		3B9EFC8E2C41CF9A00526C49 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC8D2C41CF9A00526C49 /* Stop.swift */; };
+		3B9EFC902C41DC3E00526C49 /* AddStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC8F2C41DC3E00526C49 /* AddStopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3B9EFC782C40F6EA00526C49 /* CarpoolingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpoolingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9EFC7C2C40F6EA00526C49 /* CarpoolingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolingUITests.swift; sourceTree = "<group>"; };
 		3B9EFC7E2C40F6EA00526C49 /* CarpoolingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B9EFC8B2C41CF8100526C49 /* StopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopListView.swift; sourceTree = "<group>"; };
+		3B9EFC8D2C41CF9A00526C49 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		3B9EFC8F2C41DC3E00526C49 /* AddStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				3B9EFC632C40F6E900526C49 /* ContentView.swift */,
 				3B9EFC652C40F6EA00526C49 /* Assets.xcassets */,
 				3B9EFC672C40F6EA00526C49 /* Preview Content */,
+				3B9EFC8B2C41CF8100526C49 /* StopListView.swift */,
+				3B9EFC8D2C41CF9A00526C49 /* Stop.swift */,
+				3B9EFC8F2C41DC3E00526C49 /* AddStopView.swift */,
 			);
 			path = Carpooling;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			files = (
 				3B9EFC642C40F6E900526C49 /* ContentView.swift in Sources */,
 				3B9EFC622C40F6E900526C49 /* CarpoolingApp.swift in Sources */,
+				3B9EFC902C41DC3E00526C49 /* AddStopView.swift in Sources */,
+				3B9EFC8C2C41CF8100526C49 /* StopListView.swift in Sources */,
+				3B9EFC8E2C41CF9A00526C49 /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
