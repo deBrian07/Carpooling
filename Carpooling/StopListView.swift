@@ -50,7 +50,6 @@ struct StopListView: View {
             .background(Color.white)
             .cornerRadius(20)
             .shadow(radius: 10)
-            .padding(.horizontal)
         }
         .padding(.bottom, 0) // Ensure bottom padding is zero
     }

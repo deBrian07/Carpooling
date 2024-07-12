@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B55F49D2C41E50B00EF1562 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3B55F49C2C41E50B00EF1562 /* GoogleMaps */; };
 		3B9EFC622C40F6E900526C49 /* CarpoolingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC612C40F6E900526C49 /* CarpoolingApp.swift */; };
 		3B9EFC642C40F6E900526C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9EFC632C40F6E900526C49 /* ContentView.swift */; };
 		3B9EFC662C40F6EA00526C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9EFC652C40F6EA00526C49 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B55F49D2C41E50B00EF1562 /* GoogleMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = Carpooling;
+			packageProductDependencies = (
+				3B55F49C2C41E50B00EF1562 /* GoogleMaps */,
+			);
 			productName = Carpooling;
 			productReference = 3B9EFC5E2C40F6E900526C49 /* Carpooling.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 3B9EFC552C40F6E900526C49;
+			packageReferences = (
+				3B55F49B2C41E50B00EF1562 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			productRefGroup = 3B9EFC5F2C40F6E900526C49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B55F49B2C41E50B00EF1562 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B55F49C2C41E50B00EF1562 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B55F49B2C41E50B00EF1562 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B9EFC562C40F6E900526C49 /* Project object */;
 }
